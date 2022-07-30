@@ -1,0 +1,135 @@
+@font-face {
+    font-family: joystix;
+    src: url("../Fonts/joystix_monospace.ttf");
+}
+
+body {
+    margin: 5%;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: joystix;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+#Cadre {
+    height: 540px;
+    width: 960px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.Layer {
+    position: absolute;
+    height: 540px;
+    width: 960px;
+}
+
+#LayerBack {
+    height: 540px;
+    width: 960px;
+}
+
+#LayerBack img {
+    height: 540px;
+    width: 960px;
+}
+
+#LayerP1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#LayerP1 img {
+    position: relative;
+    /* left: 150px; */
+    height: 540px;
+    width: 960px;
+}
+
+#LayerP2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#LayerP2 img {
+    position: relative;
+    height: 540px;
+    width: 960px;
+}
+
+#LayerJerryFace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#LayerJerryFace img {
+    position: relative;
+    height: 540px;
+    width: 960px;
+}
+
+#LayerText {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#TextBoxContainer {
+    background-color: white;
+    border: black solid;
+    border-width: 2px 4px 4px 2px;
+    height: 140px;
+    width: 920px;
+    position: relative;
+    bottom: 20px;
+}
+
+#TextBox {
+    margin-left: 10px;
+}
+
+#TextBoxOk {
+    /* border: tomato 1px dashed; */
+    position: relative;
+    height: 0;
+}
+
+#TextBoxOk img {
+    width: 20px;
+    position: absolute;
+    left: 883px;
+    top: 113px;
+}
+
+#quiz label {
+    display: block;
+    /* margin-bottom: 15px; */
+}
+
+#ValidationButtonContainer {
+    width: 100%;
+    height: 0px;
+    display: flex;
+    flex-flow: row-reverse;
+    position: relative;
+    top: 105px;
+    right: 5px;
+}
+
+#ValidationButtonContainer button {
+    font-family: joystix;
+    font-size: 12px;
+    background-color: rgb(233, 233, 233);
+    color: #000000;
+    border: 2px black solid;
+    cursor: pointer;
+    height: 30px;
+}

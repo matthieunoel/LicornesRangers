@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./Style/style.css" />
+
+    <title>Licornes Rangers: Green Adventure</title>
+
+    <!-- <script src="./Data/Story.js"></script> -->
+    <script src="./Scripts/DisplayAndPrint.js"></script>
+    <script src="./Scripts/Actions.js"></script>
+    <script src="./Scripts/PreLoad.js"></script>
+    <script src="./Scripts/Misc.js"></script>
+    <script src="./Scripts/Animations.js"></script>
+
+</head>
+
+<body>
+    <div id="Cadre">
+        <div class="Layer" id="LayerBack"></div>
+        <div class="Layer" id="LayerJerryFace"></div>
+        <div class="Layer" id="LayerP1"></div>
+        <div class="Layer" id="LayerP2"></div>
+        <div class="Layer" id="LayerFore"></div>
+        <div class="Layer" id="LayerText">
+            <div id="TextBoxContainer" onclick="TextBoxContainerOnclick()">
+                <div id="TextBox">
+                    <div id="TextBoxOk">
+                        <img src="./Images/Triangle.png" />
+                    </div>
+                    <div id="ValidationButtonContainer">
+                        <button id="ValidationButton" onclick="ValidationButtonOnclick()">Valider</button>
+                    </div>
+                    <p id="Text"></p>
+                    <div id="quiz" class="quiz-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./Start.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+[
+    "QGA-A1",
+    {
+        "Key": "QGA-A1",
+        "Animation": "",
+        "Text": "Bonjour Licorne Ranger!",
+        "ImgBack": "./Images/HQ4.jpg",
+        "ImgP1": "./Images/Jerry-Common.png",
+        "ImgP2": "Images/Licornes-Rangers-Wee.png",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "QGA-A2",
+        "Questions": ""
+    },
+    {
+        "Key": "QGA-A2",
+        "Animation": "",
+        "Text": "Bienvenue à la SUPER, la Super Union Parfaitement Éco-Responsable, nous sommes une organisation régionale en partenariat avec la société de protection des géotopes mondiaux et de la conservation de la faune et de la flore exotique comme ordinaire, avec le rassemblement de la diminution de l’agencement des territoires ruraux et des terrains vierges de toutes activités humaines, c'est à dire artificielle.",
+        "ImgBack": "./Images/HQ4.jpg",
+        "ImgP1": "./Images/Jerry-Common.png",
+        "ImgP2": "Images/Licornes-Rangers-Wee.png",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "QGA-A3",
+        "Questions": ""
+    },
+    {
+        "Key": "QGA-A3",
+        "Animation": "",
+        "Text": "Nos actions débordent sur la part associative du mouvement du respect de la propreté des biens public et des lieux à grande capacité de population dans les milieux urbains et ruraux. N'est ce pas formidable ?",
+        "ImgBack": "./Images/HQ4.jpg",
+        "ImgP1": "./Images/Jerry-Common.png",
+        "ImgP2": "Images/Licornes-Rangers-Meh.png",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "QGA-A4",
+        "Questions": ""
+    },
+    {
+        "Key": "QGA-A4",
+        "Animation": "",
+        "Text": "Vous serez donc assigné en période probatoire directement sur le terrain pour faire respecter les bons gestes.",
+        "ImgBack": "./Images/HQ4.jpg",
+        "ImgP1": "./Images/Jerry-Common.png",
+        "ImgP2": "Images/Licornes-Rangers-Wee.png",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "",
+        "Questions": {
+            "A": {
+                "Text": "Eeeh ... traduction s'il vous plait ?",
+                "Dest": "QGA-AA1"
+            },
+            "B": {
+                "Text": "En fait, vous faîtes juste respécter les gestes éco-responsables!",
+                "Dest": "QGA-AB1"
+            },
+            "C": "",
+            "D": ""
+        }
+    },
+    {
+        "Key": "QGA-AA1",
+        "Animation": "",
+        "Text": "Et bien, c’est la norme environnementale voté dans la ville de Rainbow City en 2016 lors de la réunion de...",
+        "ImgBack": "./Images/HQ4.jpg",
+        "ImgP1": "./Images/Jerry-Common.png",
+        "ImgP2": "Images/Licornes-Rangers-Meh.png",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "QGA-A5",
+        "Questions": ""
+    },
+    {
+        "Key": "QGA-AB1",
+        "Animation": "",
+        "Text": "Effectivement.. *Tousse*",
+        "ImgBack": "./Images/HQ4.jpg",
+        "ImgP1": "./Images/Jerry-Common.png",
+        "ImgP2": "Images/Licornes-Rangers-Wee.png",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "QGA-A5",
+        "Questions": ""
+    },
+    {
+        "Key": "QGA-A5",
+        "Animation": "BipBip",
+        "Text": "Bip Bip",
+        "ImgBack": "./Images/HQ4.jpg",
+        "ImgP1": "./Images/Jerry-Common.png",
+        "ImgP2": "Images/Licornes-Rangers-Wee.png",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "QGA-A6",
+        "Questions": ""
+    },
+    {
+        "Key": "QGA-A6",
+        "Animation": "",
+        "Text": "Trève de bavardages, votre première mission vous attends!",
+        "ImgBack": "./Images/HQ4.jpg",
+        "ImgP1": "./Images/Jerry-Common.png",
+        "ImgP2": "Images/Licornes-Rangers-Wee.png",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "STR-A1",
+        "Questions": ""
+    },
+    {
+        "Key": "STR-A1",
+        "Animation": "",
+        "Text": "Le rapport provient de l’unité d’élite d’espionnage situé dans le quartier du centre commercial. Il semblerait que la cible jette ses mégots par terre!",
+        "ImgBack": "./Images/Street-Klope6.png",
+        "ImgP1": "./Images/Fumeur-Common.png",
+        "ImgP2": "",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "STR-A2",
+        "Questions": ""
+    },
+    {
+        "Key": "STR-A2",
+        "Animation": "",
+        "Text": "La cible se trouve sur le trottoir vers l’épicerie. Comment comptez vous procéder ?",
+        "ImgBack": "./Images/Street-Klope6.png",
+        "ImgP1": "./Images/Fumeur-Common.png",
+        "ImgP2": "",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "",
+        "Questions": {
+            "A": {
+                "Text": "*Fumer avec la cible.",
+                "Dest": "STR-AA1"
+            },
+            "B": {
+                "Text": "*Fumer la cible.",
+                "Dest": "STR-AB1"
+            },
+            "C": {
+                "Text": "*Lui rendre poliment son mégot pour que la cible le jette.",
+                "Dest": "STR-AC1"
+            },
+            "D": ""
+        }
+    },
+    {
+        "Key": "STR-AA1",
+        "Animation": "",
+        "Text": "Salut! T'aurais pas une clope ?",
+        "ImgBack": "./Images/Street-Klope6.png",
+        "ImgP1": "./Images/Fumeur-Common.png",
+        "ImgP2": "./Images/Licornes-Rangers-Wee.png",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "STR-AA2",
+        "Questions": ""
+    },
+    {
+        "Key": "STR-AA2",
+        "Animation": "",
+        "Text": "Je vous dérange pas ? Vous voulez peut être un café avec ?",
+        "ImgBack": "./Images/Street-Klope5.png",
+        "ImgP1": "./Images/Fumeur-Common.png",
+        "ImgP2": "./Images/Licornes-Rangers-Klope.png",
+        "ImgJerryFace": "./Images/JerryFace-PokerFace.png",
+        "ImgFore": "",
+        "Dest": "STR-AA3",
+        "Questions": ""
+    },
+    {
+        "Key": "STR-AA3",
+        "Animation": "BipBip",
+        "Text": "Quoi qu'il en soit, une nouvelle mission vous attends! Rentrez au QG!",
+        "ImgBack": "./Images/Street-Klope5.png",
+        "ImgP1": "./Images/Fumeur-Common.png",
+        "ImgP2": "./Images/Licornes-Rangers-Klope.png",
+        "ImgJerryFace": "./Images/JerryFace-Common.png",
+        "ImgFore": "",
+        "Dest": "",
+        "Questions": ""
+    },
+    {
+        "Key": "STR-AB1",
+        "Animation": "",
+        "Text": "<span style=\"font-size: 25px;\">NANI?!</span>",
+        "ImgBack": "./Images/Street-Klope6.png",
+        "ImgP1": "",
+        "ImgP2": "./Images/MegaZord-Fumette.png",
+        "ImgJerryFace": "./Images/JerryFace-Wtf.png",
+        "ImgFore": "",
+        "Dest": "STR-AB2",
+        "Questions": ""
+    },
+    {
+        "Key": "STR-AB2",
+        "Animation": "BipBip",
+        "Text": "Bon, laissez ce malheureux et rentrez à la base! Une autre mission vous attends! Et je vous confisque le MegaZord!",
+        "ImgBack": "./Images/Street-Klope6.png",
+        "ImgP1": "",
+        "ImgP2": "./Images/MegaZord-Fumette.png",
+        "ImgJerryFace": "./Images/JerryFace-Venere.png",
+        "ImgFore": "",
+        "Dest": "",
+        "Questions": ""
+    },
+    {
+        "Key": "STR-AC1",
+        "Animation": "",
+        "Text": "<span style=\"font-size: 25px;\">. . .<span/>",
+        "ImgBack": "./Images/Street-Klope5.png",
+        "ImgP1": "./Images/Fumeur-Omg.png",
+        "ImgP2": "./Images/MegaZord-Klope.png",
+        "ImgJerryFace": "",
+        "ImgFore": "",
+        "Dest": "STR-AC2",
+        "Questions": ""
+    },
+    {
+        "Key": "STR-AC2",
+        "Animation": "",
+        "Text": "Hahaha! Vous lésinez pas sur les moyens en tout cas!",
+        "ImgBack": "./Images/Street-Klope5.png",
+        "ImgP1": "./Images/Fumeur-Omg.png",
+        "ImgP2": "./Images/MegaZord-Poubelle.png",
+        "ImgJerryFace": "./Images/JerryFace-Content.png",
+        "ImgFore": "",
+        "Dest": "STR-AC3",
+        "Questions": ""
+    },
+    {
+        "Key": "STR-AC3",
+        "Animation": "BipBip",
+        "Text": "Pas le temps d'expliquer que les mégots mettent au moins 12 ans et poluent jusqu'à 400 littres d'eau et qu'il est très important pour la planette de les jeter dans des poubelles! Un nouvelle mission vous attends!",
+        "ImgBack": "./Images/Street-Klope5.png",
+        "ImgP1": "./Images/Fumeur-Excuse.png",
+        "ImgP2": "./Images/MegaZord-Poubelle.png",
+        "ImgJerryFace": "./Images/JerryFace-Common.png",
+        "ImgFore": "",
+        "Dest": "",
+        "Questions": ""
+    }
+]
